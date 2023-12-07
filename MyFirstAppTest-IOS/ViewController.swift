@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var lblTitle: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,6 +19,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
            print("viewWillAppear")
     }
+
     
     override func viewDidAppear(_ animated: Bool) {
         
@@ -36,4 +38,5 @@ class ViewController: UIViewController {
 
 
 }
+
 
